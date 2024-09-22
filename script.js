@@ -44,6 +44,21 @@ console.log(factorial(6));
 3. Iteration 2  fact = 2*3=6
 4. Iteration 3  fact = 6*4=24
 5. Iteratoin 4  fact = 24*5=120
+*/
+/////////////////////////////////////////////////
+//Prime Number
+/*
+function isPrime(n) {
+    if (n < 2) {
+        return false
+    }
+    for (let i = 2; i < n; i++){
+        if (n % i === 0) {
+            return false
+        }
+    }
+    return true
+}
 
-
+console.log(isPrime(29))
 */
